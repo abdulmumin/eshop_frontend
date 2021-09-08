@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import LoadingBox from './LoadingBox';
 import MessageBox from './MessageBox';
 import Rating from './Rating';
-import { productDetailsActions } from './ReduxStore/productAction';
+import { detailsProduct } from './ReduxStore/actions/productAction';
 
 
 function ProductDetails(props) {
@@ -16,7 +16,7 @@ function ProductDetails(props) {
 
 	const dispatch = useDispatch();
 	useEffect(() => {
-		dispatch(productDetailsActions(productId));
+		dispatch(detailsProduct(productId));
 	}, [dispatch, productId]);
 
 	const addToCart = () => {

@@ -1,6 +1,9 @@
 import React from 'react'
 import imageSlider from './imageSlider'
+
+
 const ImageContainer =({imageSlide, activeIndex}) =>{
+    console.log(imageSlide)
     return(
         <div className="slides">
             {
@@ -9,9 +12,8 @@ const ImageContainer =({imageSlide, activeIndex}) =>{
                         <img className="sLide-image" src={sLide.src} alt={sLide.title}/>
                         <span className="sLide-title">{sLide.title}</span>
                         <span className="sLide-text">{sLide.description}</span>
-
                     </div>
-                )
+                ))
             }
 
         </div>

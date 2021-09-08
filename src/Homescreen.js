@@ -4,14 +4,14 @@ import ProductsCard from './ProductCards';
 import { useDispatch, useSelector, } from 'react-redux';
 import LoadingBox from './LoadingBox';
 import MessageBox from './MessageBox';
-import { productActions } from './ReduxStore/productAction';
+import { listProduct } from './ReduxStore/actions/productAction';
 
 const HomeScreen = () => {
     const dispatch = useDispatch()
     const productList  = useSelector(state => state.productList )
     const {products, loading, error } = productList;
     useEffect(() => {
-       dispatch(productActions())
+       dispatch(listProduct())
     }, [dispatch]);
     return (
         <div>
