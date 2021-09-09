@@ -11,7 +11,7 @@ import { signout } from './ReduxStore/actions/userActions';
 import RegisterScreen from './RegisterScreen';
 import ShippingComponent from './ShippingComponent';
 import SingInScreen from './SignInScreen';
-import HomeScreen from './HomeScreen';
+import HomeScreen from './ProductScreen';
 
 function App() {
   const userSignin = useSelector(state => state.userSignin);
