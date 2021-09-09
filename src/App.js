@@ -4,13 +4,14 @@ import PlaceOrder from './PlaceOrder';
 import CartScreen from './CartScreen';
 import Slides from './customSlider/Slides';
 // import Footer from './Footer';
-import HomeScreen from './HomeScreen';
+
 import PaymentMethodComponent from './PaymentMethodComponent';
 import ProductDetails from './productDetails';
 import { signout } from './ReduxStore/actions/userActions';
 import RegisterScreen from './RegisterScreen';
 import ShippingComponent from './ShippingComponent';
 import SingInScreen from './SignInScreen';
+import HomeScreen from './HomeScreen';
 
 function App() {
   const userSignin = useSelector(state => state.userSignin);
