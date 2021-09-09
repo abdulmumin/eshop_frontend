@@ -12,27 +12,27 @@ const imageSlider = [
     description:"The best product to purchase"
 },
 {
-    title: "First Slider Images",
+    title: "Second Slider Images",
     src: slider2,
     description:"The best product to purchase"
 },
 {
-    title: "First Slider Images",
+    title: "Third Slider Images",
     src: slider3,
     description:"The best product to purchase"
 },
 {
-    title: "First Slider Images",
+    title: "Fouth Slider Images",
     src: slider4,
     description:"The best product to purchase"
 },
 {
-    title: "First Slider Images",
+    title: "Fith Slider Images",
     src: slider5,
     description:"The best product to purchase"
 },
 {
-    title: "First Slider Images",
+    title: "SIXTH Slider Images",
     src: slider6,
     description:"The best product to purchase"
 },
